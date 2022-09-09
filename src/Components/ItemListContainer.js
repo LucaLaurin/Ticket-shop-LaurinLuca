@@ -1,5 +1,5 @@
 import ItemCount from "./ItemCount";
-import ItemList from "./ItemLIst";
+import ItemList from "./ItemList";
 import customFetch from "../Other/customFetch";
 import { useEffect, useState } from "react";
 const { products } = require('../Other/products');
@@ -22,7 +22,7 @@ const ItemListContainer = ({greeting}) => {
         <div>
          <div>{greeting}</div>
          <ItemList items={datos} />  
-         <ItemCount stock={5} initial={1} onAdd={onAdd} />  
+         <ItemCount stock={5} initial={0} onAdd={onAdd} />  
         </div>
     );
 }

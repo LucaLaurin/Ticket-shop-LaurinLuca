@@ -1,16 +1,14 @@
 
 const products = [
     {
-     id: 01,
-     name: "Ticket ",
+     id: 13,
+     name: "Ticket",
      stock: 5,
      cost: 1500,
      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor libero, tincidunt id lacinia auctor, mattis elementum tortor. In eu bibendum magna, ac dignissim justo.",
      capacity: 5,
-     image: "img src={Goldenticket} ",
+     image: "https://thumbs.dreamstime.com/z/admission-ticket-22647943.jpg",
      sales: 0,
-     createdAt: "2021-09-18T05:11:04.952Z",
-     updatedAt: "2021-09-18T19:39:05.347Z",
      categoryId: 9,
      brandId: 95,
      packingId: null,

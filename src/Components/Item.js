@@ -1,13 +1,14 @@
-
-const Item = () => {
+import React from 'react'
+const Item = ({stock, name, pictureUrl }) => {
     return (
         <div>
+            <div/> src={pictureUrl} 
             <div>
                 <div>
+                    <div />{name} 
                     <div />{stock} unid.
                 </div>
                 <div style={{cursor: "pointer"}}>
-                    <Link to={`/item/${id}`}><InfoOutlined />Details</Link>
                 </div>
             </div>
         </div>
